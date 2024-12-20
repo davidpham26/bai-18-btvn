@@ -15,11 +15,10 @@ int main() {
 
         printf("Enter age of student %d: ", i + 1);
         scanf("%d", &students[i].age);
-        getchar(); // Lo?i b? k? t? newline sau khi nh?p s?
-
+        getchar();
         printf("Enter phone number of student %d: ", i + 1);
         scanf("%s", students[i].phoneNumber);
-        getchar(); // Lo?i b? k? t? newline sau khi nh?p s?
+        getchar(); 
     }
 
     printf("\nStudent Information:\n");
